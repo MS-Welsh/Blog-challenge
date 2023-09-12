@@ -4,12 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #title {
     align-items: center;
-    color:#fff
-    background:blue;
+    text-orientation: inherit;
     text-decoration: solid;
     }
+
 /* Set a background color for the body */
 body {
     background-color:blue;

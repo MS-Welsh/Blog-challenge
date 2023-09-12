@@ -4,12 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* This is the style of the title */
 #title {
-    align-items: center;
-    color:#fff
-    background:blue;
-    text-decoration: solid;
-    }
+align-items: center;
+text-orientation: inherit;
+text-decoration: solid;
+}
 /* Set a background color for the body */
 body {
     background-color:blue;

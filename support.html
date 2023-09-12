@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTrends</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style-form.css">
+    <link rel="icon" type="x-icon" href="/assets/images/Favicon/favicon.ico">
+</head>
+<body>
+    <header>
+        <h1 id="title">TechTrends</h1>
+    </header>
+    <h3> Support </h3>
+        <nav id="menu"> 
+            <ul>
+              <li> <a href="blog.html"> Home</a> </li> 
+              <li> <a href="whats-popular.html"> What`s Popular? </a> </li>
+              <li> <a href="support.html" class="action"> Support  </a> </li> 
+            </ul>
+    </nav>
+    <main>
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>If you need immediate assistance, please call our support team at:</p>
+            <p>Phone: <a href="tel:+123456789">+123-456-789</a></p>
+        </section>
+
+        <section id="report-issue">
+            <h2>Report an Issue</h2>
+            <form action="process_support_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="issue">Describe the Issue:</label>
+                <textarea id="issue" name="issue" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section> 
+            <h3>Support line against Discrimation,Bullying and Harassment</h3>
+            At TechTrends we are unitied against any discrimination, harassment, bullying. If a memeber of our community is being discriminated, bullied or harassed by another user please report this to our specialist helpline which can be contacted at: <a href="tel+044 075435 66890">Phone:+044 075435 66890</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Copyright 2023</p>
+    </footer>
+</body>
+</html>
